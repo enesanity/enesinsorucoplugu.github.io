@@ -1,0 +1,16 @@
+.numberCircle {
+    border-radius: 50%;
+    width: 40  ;
+    height: 40;
+    padding: 8px;
+
+    background: none;
+    border: 2px solid #666;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#resim {
+    display: flex;
+}

@@ -1,0 +1,40 @@
+<html>
+<body onload="startTime()">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+  function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  }
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+  </script>
+
+<div class="bg-container"></div>
+<section class="general">
+    <article>
+    <h2 id="header" style="margin-bottom: -10px; font-size: 0.9em; opacity: 0.8;"><div id="txt"></div></h2>
+      <h2 id="header">enesin soru çöplüğü</h2>
+      <div class="container">
+        <a href="sorular.html"><div class="childheader btn-grad">
+          <h3>Sorular</h3>
+        </div></a>
+        <a href="defterler.html"><div class="childheader btn-grad2">
+          <h3>Defterler</h3></a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  </body></html>
