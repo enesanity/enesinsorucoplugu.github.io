@@ -36,3 +36,40 @@
     padding: 7px 50px;
     margin: 5px;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    article {
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .anasayfa {
+      transform: translate(-50%, -125%);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #header {
+      white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .notification {
+      padding: 5px 20px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .altyazi {
+      white-space: nowrap;
+    }
+  }
