@@ -5,7 +5,7 @@
 }
 
 .pr-5, .px-5 {
-    padding-right: 3rem !important;
+    padding-right: 3rem;
 }
 
 .col-4 {
@@ -52,7 +52,8 @@
   
   @media screen and (max-width: 480px) {
     .anasayfa {
-      transform: translate(-50%, -125%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
     }
   }
   
@@ -71,5 +72,21 @@
   @media screen and (max-width: 480px) {
     .altyazi {
       white-space: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 477px) {
+    #telefonlar {
+      display: none;
+    }
+
+    #teldegoster {
+      display: flex;
+    }
+  }
+
+  @media screen and (min-width: 477px) {
+    #teldegoster {
+      display: none;
     }
   }

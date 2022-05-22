@@ -1,0 +1,136 @@
+/* Google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.wrapper{
+  user-select: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wrapper .time{
+  height: 100px;
+  background: #34444c79;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.09);
+  padding: 0 10px;
+}
+.wrapper .time span{
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color: #333;
+}
+.time span.colon{
+  width: 10px;
+}
+.time span.ms-colon,
+.time span.millisecond{
+  color: #7D2Ae8;
+}
+.wrapper .buttons{
+  text-align: center;
+  margin-top: 20px;
+}
+.buttons button{
+  padding: 6px 16px;
+  outline: none;
+  border: none;
+  margin: 0 5px;
+  color: #7D2Ae8;
+  background: #ebebeb;
+  font-size: 19px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.09);
+  font-family: Nunito;
+  font-weight: 700;
+}
+.buttons button.active,
+.buttons button.stopActive{
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.butbut {
+    background-image: linear-gradient(150deg, rgba(244,210,13,1) 0%, rgba(238,207,28,1) 49%, rgba(198,171,15,1) 100%);
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    transition: ease-in 1s;
+    background-size: 200%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6.5px;
+    border-radius: 4px;
+    -webkit-transition: background-image 0.6s ease-in-out;
+    transition: background-image 0.6s ease-in-out;
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 70%);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.butbut:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+ 
+#dispturkce {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.4s linear,opacity 0.4s linear, 0.3s ease-in;
+}
+
+#dispsosyal {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.4s linear,opacity 0.4s linear, 0.3s ease-in;
+}
+
+#dispmat {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.4s linear,opacity 0.4s linear, 0.3s ease-in;
+}
+
+#dispfen {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.4s linear,opacity 0.4s linear, 0.3s ease-in;
+}
+ 
+.altbuton {
+    background-image: linear-gradient(150deg, rgba(110,241,61,1) 0%, rgba(111,223,68,1) 49%, rgba(82,162,52,1) 100%);
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    transition: ease-in 1s;
+    background-size: 200%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6.5px;
+    border-radius: 4px;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.altbuton:hover {
+    background-position: right center;
+}
+
+.hour, .colon, .minute, .second {
+    color: white !important;
+}
+
+.ustsaat {
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
