@@ -97,7 +97,16 @@ let hr = min = sec = ms = "0" + 0,
     putValue();
     document.getElementById('dispturkce').style.visibility = 'hidden'
     document.getElementById('dispturkce').style.opacity = '0'
+    document.getElementById('dispmat').style.visibility = 'hidden'
+    document.getElementById('dispmat').style.opacity = '0'
+    document.getElementById('dispsosyal').style.visibility = 'hidden'
+    document.getElementById('dispsosyal').style.opacity = '0'
+    document.getElementById('dispfen').style.visibility = 'hidden'
+    document.getElementById('dispfen').style.opacity = '0'
     document.getElementById('turkce').style.backgroundImage = 'linear-gradient(150deg, rgba(244,210,13,1) 0%, rgba(238,207,28,1) 49%, rgba(198,171,15,1) 100%)'
+    document.getElementById('matematik').style.backgroundImage = 'linear-gradient(150deg, rgba(244,210,13,1) 0%, rgba(238,207,28,1) 49%, rgba(198,171,15,1) 100%)'
+    document.getElementById('sosyal').style.backgroundImage = 'linear-gradient(150deg, rgba(244,210,13,1) 0%, rgba(238,207,28,1) 49%, rgba(198,171,15,1) 100%)'
+    document.getElementById('fen').style.backgroundImage = 'linear-gradient(150deg, rgba(244,210,13,1) 0%, rgba(238,207,28,1) 49%, rgba(198,171,15,1) 100%)'
     document.getElementById('header2').style.display = 'none'
     document.getElementById('baslatbutonu').style.opacity = '1'
     document.getElementById('baslatbutonu').disabled = false;
